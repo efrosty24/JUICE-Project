@@ -1,0 +1,14 @@
+/Users/evanf/Programming/team8_project/build/CMakeFiles/team8_project.dir
+/Users/evanf/Programming/team8_project/build/CMakeFiles/team8_project_All.dir
+/Users/evanf/Programming/team8_project/build/CMakeFiles/team8_project_AU.dir
+/Users/evanf/Programming/team8_project/build/CMakeFiles/team8_project_VST3.dir
+/Users/evanf/Programming/team8_project/build/CMakeFiles/juce_vst3_helper.dir
+/Users/evanf/Programming/team8_project/build/CMakeFiles/install.dir
+/Users/evanf/Programming/team8_project/build/CMakeFiles/ALL_BUILD.dir
+/Users/evanf/Programming/team8_project/build/CMakeFiles/ZERO_CHECK.dir
+/Users/evanf/Programming/team8_project/build/JUCE/CMakeFiles/install.dir
+/Users/evanf/Programming/team8_project/build/JUCE/CMakeFiles/ALL_BUILD.dir
+/Users/evanf/Programming/team8_project/build/JUCE/CMakeFiles/ZERO_CHECK.dir
+/Users/evanf/Programming/team8_project/build/JUCE/modules/CMakeFiles/install.dir
+/Users/evanf/Programming/team8_project/build/JUCE/extras/Build/CMakeFiles/install.dir
+/Users/evanf/Programming/team8_project/build/JUCE/extras/Build/juceaide/CMakeFiles/install.dir
