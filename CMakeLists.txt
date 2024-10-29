@@ -5,7 +5,11 @@ cmake_minimum_required(VERSION 3.15)
 project(team8_project VERSION 0.1.0)
 
 # Path to JUCE library
-set(JUCE_DIR "/Users/evanf/JUCE")
+#set(JUCE_DIR "/Users/evanf/JUCE")
+if(NOT DEFINED JUCE_DIR)
+    message(FATAL_ERROR "JUCE_DIR is not set. Please set JUCE_DIR as an environment variable or pass it as a CMake argument.")
+endif()
+
 
 # Add the JUCE library
 add_subdirectory(${JUCE_DIR} JUCE)
@@ -15,7 +19,7 @@ juce_add_plugin(team8_project
     COMPANY_NAME "TeamJuice"
     PLUGIN_NAME "Team8 Project Plugin"
     VERSION "0.1.0"
-    FORMATS VST3 AU  # Define the plugin formats (VST3, AU, etc.)
+    FORMATS VST3 AU Standalone # Define the plugin formats (VST3, AU, etc.)
     PRODUCT_NAME "Team8 Project Plugin"
     BUNDLE_ID "com.TeamJuice.team8_project"
 )
