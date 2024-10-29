@@ -22,20 +22,20 @@ Before building the project, make sure the JUCE_DIR variable is updated to the p
 
 ### Option 1: Set up JUCE_DIR as an Environment Variable
 
-'''bash
+'''bash'''
 export JUCE_DIR= /path/to/JUCE
 
 In the code above change the the "/path/to/JUCE" as the path to your JUCE download folder.
 For example on my mac my directory for JUCE is /Users/evanf/JUCE, so I would use that as my "path/to/JUCE"
 
 ### Option 2: Pass JUCE_DIR as a CMake Argument 
-'''bash
+'''bash'''
 cmake -B build -S . -D JUCE_DIR=/path/to/JUCE
 
 Again change the "/path/to/JUCE" as the download path to juce on your machine.
 
 Then you want to execute this with
-'''bash
+'''bash'''
 cmake --build build 
 
 Whenever you want to build the project. 
