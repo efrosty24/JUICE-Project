@@ -1,7 +1,0 @@
-/Users/evanf/Programming/team8_project/build/JUCE/tools/CMakeFiles/install.dir
-/Users/evanf/Programming/team8_project/build/JUCE/tools/CMakeFiles/ALL_BUILD.dir
-/Users/evanf/Programming/team8_project/build/JUCE/tools/CMakeFiles/ZERO_CHECK.dir
-/Users/evanf/Programming/team8_project/build/JUCE/tools/modules/CMakeFiles/install.dir
-/Users/evanf/Programming/team8_project/build/JUCE/tools/extras/Build/CMakeFiles/install.dir
-/Users/evanf/Programming/team8_project/build/JUCE/tools/extras/Build/juceaide/CMakeFiles/juceaide.dir
-/Users/evanf/Programming/team8_project/build/JUCE/tools/extras/Build/juceaide/CMakeFiles/install.dir
