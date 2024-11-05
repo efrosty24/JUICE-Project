@@ -5,10 +5,12 @@ cmake_minimum_required(VERSION 3.15)
 project(team8_project VERSION 0.1.0)
 
 # Path to JUCE library
-#set(JUCE_DIR "/Users/evanf/JUCE")
-if(NOT DEFINED JUCE_DIR)
-    message(FATAL_ERROR "JUCE_DIR is not set. Please set JUCE_DIR as an environment variable or pass it as a CMake argument.")
+if(NOT DEFINED ENV{JUCE_DIR})
+    message(FATAL_ERROR "JUCE_DIR environment variable is not set. Please set JUCE_DIR on your system.")
 endif()
+
+# Use the JUCE_DIR environment variable in your CMake configuration
+set(JUCE_DIR $ENV{JUCE_DIR})
 
 
 # Add the JUCE library
