@@ -34,6 +34,11 @@ target_sources(team8_project
         Source/PluginEditor.cpp
         Source/PluginEditor.h
 )
+# Include JuceLibraryCode for generated headers
+target_include_directories(team8_project
+    PRIVATE
+        ${CMAKE_SOURCE_DIR}/JuceLibraryCode
+)
 
 # Link JUCE modules to the project
 target_link_libraries(team8_project
