@@ -15,7 +15,7 @@ Team8_projectAudioProcessorEditor::Team8_projectAudioProcessorEditor (Team8_proj
 {
     // Make sure that before the constructor has finished, you've set the
     // editor's size to whatever you need it to be.
-    setSize (400, 300);
+    setSize (500, 400);
 }
 
 Team8_projectAudioProcessorEditor::~Team8_projectAudioProcessorEditor()
@@ -30,7 +30,7 @@ void Team8_projectAudioProcessorEditor::paint (juce::Graphics& g)
 
     g.setColour (juce::Colours::white);
     g.setFont (juce::FontOptions (15.0f));
-    g.drawFittedText ("Hello World!", getLocalBounds(), juce::Justification::centred, 1);
+    g.drawFittedText ("Team JUICE!!!", getLocalBounds(), juce::Justification::centred, 1);   
 }
 
 void Team8_projectAudioProcessorEditor::resized()

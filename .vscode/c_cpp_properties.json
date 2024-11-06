@@ -13,15 +13,16 @@
         "compilerPath": "/usr/bin/clang",
         "cStandard": "c17",
         "cppStandard": "c++17",
-        "intelliSenseMode": "macos-clang-x64"
+        "intelliSenseMode": "macos-clang-x64",
+        "configurationProvider": "ms-vscode.cmake-tools"
       },
-      {
+      { 
         "name": "Win32",
         "includePath": [
           "${workspaceFolder}/**",
           "${env:JUCE_MODULES_PATH}/**"
         ],
-        "windowsSdkVersion": "10.0.19041.0",  // Update as necessary
+        "windowsSdkVersion": "10.0.19041.0", // Update as necessary 
         "compilerPath": "C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/VC/Tools/MSVC/14.29.30133/bin/Hostx64/x64/cl.exe",  // Update as necessary
         "cStandard": "c17",
         "cppStandard": "c++17",
@@ -30,6 +31,3 @@
     ],
     "version": 4
   }
-  
-  
-  
